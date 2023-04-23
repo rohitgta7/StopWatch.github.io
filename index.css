@@ -72,20 +72,21 @@ body {
     max-width: 100%;
     display: block;
     position: relative;
-    left: 33%;
+    width: 100%;
+    left: 70px;
   }
   #container {
     border: 5px solid rgb(66, 100, 185);
     border-radius: 50%;
     width: 250px;
     height: 250px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   #timer {
     display: block;
     font-size: 3.5em;
     position: absolute;
-    left: 28px;
+    left: 25px;
     top: 100px;
   }
   .buttons {
@@ -100,10 +101,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 10px;
-    margin: 50px;
+    margin: 10%;
     border-radius: 10px;
-    box-shadow: 2px 2px white;
+    box-shadow: 3px 3px white;
   }
   #pause, #play, #reset {
     width: 100px;
