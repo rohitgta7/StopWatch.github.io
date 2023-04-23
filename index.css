@@ -68,8 +68,48 @@ body {
 
 @media only screen and (max-width: 700px) {
   body {
-    background: url(phoneImage.jpeg) no-repeat center center fixed;
-    max-width: 100%; 
+    background: rgb(50, 50, 87);
+    max-width: 100%;
+    display: block;
+    position: relative;
+    left: 33%;
+  }
+  #container {
+    border: 5px solid rgb(66, 100, 185);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  #timer {
+    display: block;
+    font-size: 3.5em;
+    position: absolute;
+    left: 28px;
+    top: 100px;
+  }
+  .buttons {
+    display: flex;
     height: 100vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+  }
+  #pauseButton, #resetButton {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px white;
+  }
+  #pause, #play, #reset {
+    width: 100px;
+    font-size: 3em;
+  }
+  #pauseButton:hover, #resetButton:hover {
+    background: rgb(141, 155, 224);
   }
 }
