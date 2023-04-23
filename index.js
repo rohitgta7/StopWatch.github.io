@@ -77,5 +77,4 @@ function resetTimer() {
     window.clearInterval(timeInterval);
   }
 }
-
 resetButton.addEventListener("click", resetTimer)
