@@ -68,33 +68,35 @@ body {
 
 @media only screen and (max-width: 700px) {
   body {
+    width: 100px;
+    border-radius: 50%;
     background: rgb(50, 50, 87);
-    max-width: 100%;
-    display: block;
-    position: relative;
-    width: 100%;
-    left: 70px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   #container {
-    border: 5px solid rgb(66, 100, 185);
+    border: 5px dotted rgb(30, 81, 211);
     border-radius: 50%;
     width: 250px;
     height: 250px;
     margin-top: 50px;
+    box-shadow: 0 0 5px 5px white;
   }
   #timer {
     display: block;
+    position: relative;
+    top: 80px;
+    left: 15px;
     font-size: 3.5em;
-    position: absolute;
-    left: 25px;
-    top: 100px;
+    display: inline-block;
+    line-height: normal;
   }
   .buttons {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 50px;
+    position: relative;
+    top: 100%;
+    padding-bottom: 200px;
   }
   #pauseButton, #resetButton {
     border: 1px solid white;
